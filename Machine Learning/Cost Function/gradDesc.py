@@ -2,7 +2,7 @@ import numpy as np  # Import the numpy library for numerical operations
 
 def gradient_descent(x, y):
     m_curr = b_curr = 0  # Initialize the slope (m) and intercept (b) to zero
-    iterations = 10000  # Number of iterations for the gradient descent algorithm
+    iterations = 5000  # Number of iterations for the gradient descent algorithm
     n = len(x)  # Number of data points
     learning_rate = 0.08  # Learning rate for gradient descent
 
